@@ -1,3 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
-  padding-top: 50px;
+	font-size: 16px;
+	background: #f9f9f9;
+	color:#666;
+	line-height: 1.6em;
+}
+
+h3 {
+	color: #fff;
+	background-color: #2EB66A;
+	padding: 10px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.qa li {
+	padding: 20px;
+}
+
+.qa li.q {
+	background: #eee;
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom:2px #ddd solid;
+	cursor: pointer;
+}
+
+.qa li.a {
+	background: #ddd;
+	display: none;
 }
